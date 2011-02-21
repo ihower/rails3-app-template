@@ -19,6 +19,9 @@ gem "rcov", :group => [:test, :development]
 gem "delorean", :group => [:test, :development]
 gem "watchr", :group => [:test, :development]
 
+# bundle install
+run "bundle install"
+
 # generate rspec
 generate "rspec:install"
 
