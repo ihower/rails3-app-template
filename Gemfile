@@ -26,13 +26,13 @@ gem "kaminari"
 # gem 'newrelic_rpm'
 
 group :test, :development do
-	gem "rspec", "~> 2.0"
-	gem "rspec-rails", "~> 2.0"
-	gem "factory_girl_rails"
-	gem "shoulda-matchers"
-	gem "rcov"
-	gem "delorean"
-	gem "watchr"
+  gem "rspec", "~> 2.0"
+  gem "rspec-rails", "~> 2.0"
+  gem "factory_girl_rails"
+  gem "shoulda-matchers"
+  gem "rcov"
+  gem "delorean"
+  gem "watchr"
 end
 
 # Deploy with Capistrano
