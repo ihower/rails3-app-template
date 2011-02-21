@@ -5,19 +5,8 @@ run "rm public/images/rails.png"
 run "cp config/database.yml config/database.yml.example"
 
 # install gems
-gem 'yajl-ruby', :require => 'yajl'
-gem 'nokogiri'
-
-gem 'mysql2'
-gem "kaminari"
-
-gem "rspec", "~> 2.0", :group => [:test, :development]
-gem "rspec-rails", "~> 2.0", :group => [:test, :development]
-gem "factory_girl_rails", :group => [:test, :development]
-gem "shoulda-matchers", :group => [:test, :development]
-gem "rcov", :group => [:test, :development]
-gem "delorean", :group => [:test, :development]
-gem "watchr", :group => [:test, :development]
+run "rm Gemfile"
+file 'Gemfile', File.read("#{File.dirname(rails_template)}/Gemfile")
 
 # bundle install
 run "bundle install"
