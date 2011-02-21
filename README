@@ -1,0 +1,7 @@
+# Installation
+
+	git clone git@github.com:ihower/rails3-app-template.git
+
+# Usage
+
+	rails new your_project_name -TJ -d mysql -m rails3-app-template/rails3.rb
