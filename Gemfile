@@ -7,6 +7,7 @@ gem 'rails', '3.0.4'
 
 gem 'mysql2'
 # gem 'sqlite3-ruby', :require => 'sqlite3'
+# gem 'moneta'
 
 gem 'yajl-ruby', :require => 'yajl'
 gem 'nokogiri'
@@ -15,14 +16,15 @@ gem "kaminari"
 # gem 'will_paginate', '3.0.pre2'
 # gem 'paperclip'
 # gem 'devise', '~> 1.1.7'
+# gem "cancan"
 # gem "simple_form"
 # gem 'fastercsv' # for Ruby 1.8.7+
 # gem 'prawn'
 # gem "haml"
 # gem "haml-rails"
 # gem 'validates_timeliness', '~> 3.0.5'
-# gem 'aasm'
-
+# gem 'acts-as-taggable-on'
+ 
 # gem 'hoptoad_notifier'
 # gem 'newrelic_rpm'
 
@@ -37,7 +39,13 @@ group :test, :development do
   gem "delorean"
   gem "watchr"
   # gem "capybara"
+  # gem 'yard'
+  # gem "bluecloth"
 end
+
+# State machine
+# gem 'aasm'
+# gem 'state_machine'
 
 # HTTP client
 # gem 'typhoeus'
