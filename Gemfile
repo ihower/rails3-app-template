@@ -16,14 +16,17 @@ gem "kaminari"
 # gem 'paperclip'
 # gem 'devise', '~> 1.1.7'
 # gem "simple_form"
-# gem "memcache-client", :require => "memcache"
 # gem 'fastercsv' # for Ruby 1.8.7+
-# gem 'typhoeus'
+# gem 'prawn'
 # gem "haml"
 # gem "haml-rails"
+# gem 'validates_timeliness', '~> 3.0.5'
+# gem 'aasm'
 
 # gem 'hoptoad_notifier'
 # gem 'newrelic_rpm'
+
+gem 'SystemTimer'
 
 group :test, :development do
   gem "rspec", "~> 2.0"
@@ -33,12 +36,22 @@ group :test, :development do
   gem "rcov"
   gem "delorean"
   gem "watchr"
+  # gem "capybara"
 end
 
-# Deploy with Capistrano
-# gem 'capistrano'
+# HTTP client
+# gem 'typhoeus'
+# gem 'rest-client', :require => 'restclient'
 
-# To use debugger (ruby-debug for Ruby 1.8.7+, ruby-debug19 for Ruby 1.9.2+)
+# Memcached client 
+# gem "dalli"
+# gem "memcache-client", :require => "memcache"
+
+# Deployment tool
+# gem 'capistrano'
+# gem 'whiskey_disk'
+
+# Debugger (ruby-debug for Ruby 1.8.7+, ruby-debug19 for Ruby 1.9.2+)
 # gem 'ruby-debug'
 # gem 'ruby-debug19'
 
