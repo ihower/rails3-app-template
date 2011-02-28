@@ -33,7 +33,7 @@ gem 'nokogiri'
 # gem 'hoptoad_notifier'
 # gem 'newrelic_rpm'
 
-gem 'SystemTimer'
+gem 'SystemTimer' if RUBY_VERSION =~ /^1.8/
 
 group :test, :development do
   gem "rspec", "~> 2.0"
